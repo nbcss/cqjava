@@ -13,5 +13,3 @@ CQ.send 和CQ.receive 方法
 PrivateMessage 私聊
 GroupMessage 群消息
 DiscussMessage 讨论组
-
-注意：接收讨论组消息时候没有问题，但是发送讨论组消息是会被插件识别成群消息导致发送不出去，具体原因未知，可能是上头插件作者的bug导致。已经提issue 等待反馈修改。（不过这个功能使用比较少好像也比较不重要是吧。）
